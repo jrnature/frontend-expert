@@ -6,6 +6,7 @@ const aptos= new Aptos(config);
 
 const APTOS_COIN="0X1::aptos_coin::AptosCoin";
 const COIN_STORE=`0x01::coin::CoinStore<${APTOS_COIN}>`;
+const CONTRACT="0x3e88ab6d78869cee46bc200d51c3dda0b3ed18a756b677f519172fdc09793a33"; //transChain
 
 function App2() {
   const [valor, setValor] = useState(0)
